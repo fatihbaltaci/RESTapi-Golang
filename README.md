@@ -24,6 +24,8 @@ go get
 
 <b>3. Build and Run</b>
 
+First of all, change username, password for MySQL connection on 17th line in main.go 
+
 ```
 go build main.go
 main
