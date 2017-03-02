@@ -14,7 +14,7 @@ import (
 
 
 func main() {
-	db, err := sql.Open("mysql", "root:1288@/user_events")
+	db, err := sql.Open("mysql", "<USERNAME>:<PASSWORD>@/user_events")
 	fmt.Print(db);
 	if err != nil {
 		fmt.Print("Can not connect to database, please control your username, password and database name\n")
